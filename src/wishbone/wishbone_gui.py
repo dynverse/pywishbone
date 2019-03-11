@@ -1,7 +1,6 @@
 #!/usr/local/bin/python3
 
 import matplotlib
-matplotlib.use("TkAgg")
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg, NavigationToolbar2TkAgg
 import matplotlib.pyplot as plt
 from matplotlib.figure import Figure
